@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sev1</servlet-name>
+    <servlet-class>com.learn.it.Sev1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sev2</servlet-name>
+    <servlet-class>com.learn.it.Sev2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sev3</servlet-name>
+    <servlet-class>com.learn.it.Sev3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionSev1</servlet-name>
+    <servlet-class>com.learn.it.SessionSev1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerycodeSev</servlet-name>
+    <servlet-class>com.learn.it.VerycodeSev</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Sev1</servlet-name>
+    <url-pattern>/Sev1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sev2</servlet-name>
+    <url-pattern>/Sev2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sev3</servlet-name>
+    <url-pattern>/Sev3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionSev1</servlet-name>
+    <url-pattern>/SessionSev1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerycodeSev</servlet-name>
+    <url-pattern>/VerycodeSev</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
